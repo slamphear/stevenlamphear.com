@@ -1,0 +1,44 @@
+﻿<div class="jumbotron">
+    <div class="container">
+        <div style="float:left" max-height=100% max-width=48%>
+            <h1>Steven Lamphear</h1>
+            <p class="lead">Developer. Composer. Performer.</p>
+        </div>
+        <div style="float:right" max-height=100% max-width=48%>
+            <img src="~/Content/images/headshot.jpg" alt="Photo taken August 30th, 2014" style="max-width:100%;max-height:225px" />
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Developer</h2>
+        <p>
+            2014-Present: Professional Master's Program in Computer Science (University of Wisconsin-Madison)<br />
+            2012-Present: Technical Services Engineer at Epic (Verona, Wisconsin)
+        </p>
+        <p>
+            <button class="btn btn-primary" onclick="location.href='@Url.Action("Developer", "Home")';return false;">Current Projects</button>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Composer</h2>
+        <p>
+            Master of Music in Composition (University of Alabama, 2013)<br />
+            Bachelor of Arts in Music with a Concentration in Music Technology (The University of Alabama at Birmingham, 2007)
+        </p>
+        <p>
+            <button class="btn btn-primary" onclick="location.href='@Url.Action("Composer", "Home")';return false;">List of Works</button>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Performer</h2>
+        <p>
+            Multi-instrumentalist and singer/songwriter<br />
+            Recording artist with multiple released albums
+        </p>
+        <p>
+            <button class="btn btn-primary" onclick="location.href='@Url.Action("Performer", "Home")';return false;">Recordings</button>
+        </p>
+    </div>
+</div>
