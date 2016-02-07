@@ -6,6 +6,9 @@
     <title>Steven Lamphear</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
     <script type="text/javascript">
         var appInsights=window.appInsights||function(config){
             function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
@@ -33,7 +36,12 @@
                     <li>@Html.ActionLink("Developer", "Developer", "Home")</li>
                     <li>@Html.ActionLink("Composer", "Composer", "Home")</li>
                     <li>@Html.ActionLink("Performer", "Performer", "Home")</li>
-                    <li>@Html.ActionLink("Links", "Links", "Home")</li>
+                    <li><a href="https://www.facebook.com/stevenlamphearmusic" class="icon-link facebook fill"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/stevenlamphear" class="icon-link linkedin fill"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://plus.google.com/+StevenLamphear" class="icon-link google-plus fill"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/StevenLamphear" class="icon-link youtube fill"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://github.com/slamphear" class="icon-link github fill"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://soundcloud.com/stevenlamphear" class="icon-link soundcloud fill"><i class="fa fa-soundcloud"></i></a></li>
                 </ul>
             </div>
         </div>

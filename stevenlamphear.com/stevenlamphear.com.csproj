@@ -210,7 +210,6 @@
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Views\Home\Composer.cshtml" />
     <Content Include="Views\Home\Performer.cshtml" />
-    <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Home\Developer.cshtml" />
   </ItemGroup>
   <ItemGroup>

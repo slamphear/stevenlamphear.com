@@ -31,11 +31,5 @@ namespace stevenlamphear.com.Controllers
             ViewBag.Title = "Performer";
             return View();
         }
-
-        public ActionResult Links()
-        {
-            ViewBag.Title = "Links";
-            return View();
-        }
     }
 }
