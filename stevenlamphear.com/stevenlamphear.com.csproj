@@ -169,8 +169,6 @@
     <Content Include="Content\bootstrap-old.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\darkly-bootstrap.css" />
-    <Content Include="Content\icons\css\normalize.css" />
-    <Content Include="Content\icons\css\style.css" />
     <Content Include="Content\images\headshot.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -183,7 +181,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\icons\scss\style.scss" />
     <None Include="Properties\PublishProfiles\File System.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
