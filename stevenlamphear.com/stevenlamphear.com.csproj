@@ -181,6 +181,11 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\scores\Lamphear - Quantum Gravity %282011%29.pdf" />
+    <Content Include="Content\scores\Lamphear - Reverie %282010%29 - Full Score.pdf" />
+    <Content Include="Content\scores\Lamphear - Trajectory %282012%29 - Full Score.pdf" />
+    <Content Include="Content\scores\Lamphear - QED %282012%29 - Full Score.pdf" />
+    <Content Include="Content\scores\Lamphear - Erosion %282011%29 - Full Score.pdf" />
     <None Include="Properties\PublishProfiles\File System.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
